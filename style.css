@@ -61,3 +61,37 @@ body {
     background-color: #218838; /* Darker Green */
     transform: translateY(-3px);
 }
+
+/* About Section Styling */
+.about-section {
+    padding: 80px 20px;
+    text-align: center;
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+}
+
+.about-content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.about-section h2 {
+    font-size: 2.5em;
+    color: #007bff;
+    margin-bottom: 30px;
+}
+
+.about-section p {
+    font-size: 1.1em;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.about-logo {
+    max-width: 150px;
+    height: auto;
+    margin-bottom: 30px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
