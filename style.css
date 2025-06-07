@@ -154,3 +154,35 @@ body {
     border-radius: 8px;
     margin-bottom: 20px;
 }
+
+/* Brand Bar Styling */
+.brand-bar {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    overflow-x: auto;
+    white-space: nowrap;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    border-bottom: 1px solid #444;
+}
+
+.slogan-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-width: fit-content; /* Ensure container is wide enough for snapping */
+}
+
+.slogan-item {
+    font-size: 1.4em;
+    font-weight: bold;
+    padding: 0 30px;
+    scroll-snap-align: center;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+}
+
+.slogan-item:hover {
+    opacity: 1;
+}
