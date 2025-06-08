@@ -656,3 +656,114 @@ body {
     left: 0;
     font-weight: bold;
 }
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .hero-section h1 {
+        font-size: 2.5em;
+    }
+
+    .hero-section .tagline {
+        font-size: 1.2em;
+    }
+
+    .cta-button {
+        padding: 12px 25px;
+        font-size: 1em;
+    }
+
+    .about-section h2,
+    .products-carousel h2,
+    .team-section h2,
+    .contact-section h2,
+    .chatbot-section h2,
+    .faq-section h2,
+    .audience-toggle-section h2 {
+        font-size: 2em;
+    }
+
+    .carousel-container {
+        padding: 10px;
+        gap: 20px;
+    }
+
+    .carousel-item {
+        flex: 0 0 280px; /* Adjust width for smaller screens */
+    }
+
+    .team-grid {
+        grid-template-columns: 1fr; /* Stack team cards on smaller screens */
+    }
+
+    .brand-bar .slogan-item {
+        font-size: 1.2em;
+        padding: 0 20px;
+    }
+
+    .contact-content,
+    .chatbot-container,
+    .faq-container,
+    .audience-content-container {
+        padding: 25px;
+    }
+
+    .contact-form input,
+    .contact-form textarea,
+    .chat-input-area input {
+        padding: 10px;
+    }
+
+    .chat-input-area button,
+    .sample-q-button {
+        padding: 10px 15px;
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-section {
+        padding: 80px 15px;
+    }
+
+    .hero-section h1 {
+        font-size: 2em;
+    }
+
+    .hero-section .tagline {
+        font-size: 1em;
+    }
+
+    .cta-button {
+        padding: 10px 20px;
+        font-size: 0.9em;
+    }
+
+    .about-section,
+    .products-carousel,
+    .team-section,
+    .contact-section,
+    .chatbot-section,
+    .faq-section,
+    .audience-toggle-section {
+        padding: 50px 15px;
+    }
+
+    .about-section p,
+    .contact-content p,
+    .chatbot-instructions,
+    .audience-content p {
+        font-size: 1em;
+    }
+
+    .carousel-item {
+        flex: 0 0 250px; /* Further adjust width for very small screens */
+    }
+
+    .site-footer {
+        padding: 30px 15px;
+    }
+
+    .footer-links a {
+        margin: 0 10px;
+    }
+}
