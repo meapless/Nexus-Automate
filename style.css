@@ -16,8 +16,8 @@ body {
     background: linear-gradient(135deg, #007bff, #6a0dad); /* Blue to Purple Gradient */
     color: #fff;
     text-align: center;
-    padding: 100px 20px;
-    min-height: 60vh;
+    padding: 120px 20px; /* Adjusted padding */
+    min-height: 70vh; /* Adjusted min-height */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -32,15 +32,15 @@ body {
 }
 
 .hero-section h1 {
-    font-size: 3.5em;
-    margin-bottom: 20px;
+    font-size: 4em; /* Adjusted font size */
+    margin-bottom: 25px; /* Adjusted margin */
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .hero-section .tagline {
-    font-size: 1.5em;
-    margin-bottom: 30px;
+    font-size: 1.6em; /* Adjusted font size */
+    margin-bottom: 40px; /* Adjusted margin */
     opacity: 0.9;
 }
 
@@ -48,10 +48,10 @@ body {
     display: inline-block;
     background-color: #28a745; /* Green */
     color: #fff;
-    padding: 15px 30px;
+    padding: 18px 35px; /* Adjusted padding */
     border-radius: 50px;
     text-decoration: none;
-    font-size: 1.2em;
+    font-size: 1.3em; /* Adjusted font size */
     font-weight: bold;
     transition: background-color 0.3s ease, transform 0.3s ease;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -64,7 +64,7 @@ body {
 
 /* About Section Styling */
 .about-section {
-    padding: 80px 20px;
+    padding: 100px 20px; /* Adjusted padding */
     text-align: center;
     background-color: #fff;
     border-bottom: 1px solid #eee;
@@ -76,38 +76,39 @@ body {
 }
 
 .about-section h2 {
-    font-size: 2.5em;
+    font-size: 3em; /* Adjusted font size */
     color: #007bff;
-    margin-bottom: 30px;
+    margin-bottom: 40px; /* Adjusted margin */
 }
 
 .about-section p {
-    font-size: 1.1em;
+    font-size: 1.2em; /* Adjusted font size */
     line-height: 1.8;
-    margin-bottom: 20px;
+    margin-bottom: 25px; /* Adjusted margin */
     color: #555;
 }
 
 .about-logo {
-    max-width: 150px;
-    height: auto;
-    margin-bottom: 30px;
+    max-width: 180px; /* Adjusted size */
+    height: 180px; /* Adjusted size */
     border-radius: 50%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
+    margin-bottom: 40px; /* Adjusted margin */
+    border: 5px solid #007bff; /* Adjusted border */
 }
 
 /* Product Carousel Styling */
 .products-carousel {
-    padding: 80px 0;
+    padding: 100px 0; /* Adjusted padding */
     background-color: #f9f9f9;
     text-align: center;
     border-bottom: 1px solid #eee;
 }
 
 .products-carousel h2 {
-    font-size: 2.5em;
+    font-size: 3em; /* Adjusted font size */
     color: #007bff;
-    margin-bottom: 40px;
+    margin-bottom: 50px; /* Adjusted margin */
 }
 
 .carousel-container {
@@ -116,17 +117,17 @@ body {
     scroll-snap-type: x mandatory;
     -webkit-overflow-scrolling: touch; /* For smooth scrolling on iOS */
     padding: 20px;
-    gap: 30px;
+    gap: 40px; /* Adjusted gap */
     justify-content: flex-start; /* Align items to the start */
 }
 
 .carousel-item {
-    flex: 0 0 300px; /* Fixed width for each item */
+    flex: 0 0 320px; /* Adjusted width for each item */
     scroll-snap-align: start;
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-    padding: 30px;
+    padding: 35px; /* Adjusted padding */
     text-align: left;
     transition: transform 0.3s ease;
 }
@@ -136,30 +137,30 @@ body {
 }
 
 .carousel-item h3 {
-    font-size: 1.8em;
+    font-size: 2em; /* Adjusted font size */
     color: #333;
-    margin-bottom: 15px;
+    margin-bottom: 18px; /* Adjusted margin */
 }
 
 .carousel-item p {
-    font-size: 1em;
+    font-size: 1.1em; /* Adjusted font size */
     color: #666;
     line-height: 1.7;
 }
 
 .product-image {
     max-width: 100%;
-    height: 180px; /* Fixed height for images */
+    height: 200px; /* Adjusted height for images */
     object-fit: cover; /* Ensure images cover the area */
     border-radius: 8px;
-    margin-bottom: 20px;
+    margin-bottom: 25px; /* Adjusted margin */
 }
 
 /* Brand Bar Styling */
 .brand-bar {
     background-color: #333;
     color: #fff;
-    padding: 20px 0;
+    padding: 25px 0; /* Adjusted padding */
     overflow-x: auto;
     white-space: nowrap;
     scroll-snap-type: x mandatory;
@@ -175,9 +176,9 @@ body {
 }
 
 .slogan-item {
-    font-size: 1.4em;
+    font-size: 1.5em; /* Adjusted font size */
     font-weight: bold;
-    padding: 0 30px;
+    padding: 0 40px; /* Adjusted padding */
     scroll-snap-align: center;
     opacity: 0.8;
     transition: opacity 0.3s ease;
@@ -189,22 +190,22 @@ body {
 
 /* Team Section Styling */
 .team-section {
-    padding: 80px 20px;
+    padding: 100px 20px; /* Adjusted padding */
     text-align: center;
     background-color: #fff;
     border-bottom: 1px solid #eee;
 }
 
 .team-section h2 {
-    font-size: 2.5em;
+    font-size: 3em; /* Adjusted font size */
     color: #007bff;
-    margin-bottom: 40px;
+    margin-bottom: 50px; /* Adjusted margin */
 }
 
 .team-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjusted minmax */
+    gap: 40px; /* Adjusted gap */
     max-width: 1000px;
     margin: 0 auto;
 }
@@ -213,7 +214,7 @@ body {
     background-color: #f9f9f9;
     border-radius: 10px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-    padding: 30px;
+    padding: 35px; /* Adjusted padding */
     text-align: center;
     transition: transform 0.3s ease;
 }
@@ -223,72 +224,73 @@ body {
 }
 
 .team-member-image {
-    width: 120px;
-    height: 120px;
+    width: 150px; /* Adjusted size */
+    height: 150px; /* Adjusted size */
     border-radius: 50%;
     object-fit: cover;
-    margin-bottom: 20px;
-    border: 4px solid #007bff;
+    margin-bottom: 25px; /* Adjusted margin */
+    border: 5px solid #007bff; /* Adjusted border */
 }
 
 .team-member-card h3 {
-    font-size: 1.8em;
+    font-size: 2em; /* Adjusted font size */
     color: #333;
-    margin-bottom: 10px;
+    margin-bottom: 12px; /* Adjusted margin */
 }
 
 .team-member-card .role {
-    font-size: 1.1em;
+    font-size: 1.2em; /* Adjusted font size */
     color: #6a0dad;
     font-weight: bold;
-    margin-bottom: 15px;
+    margin-bottom: 18px; /* Adjusted margin */
 }
 
 .team-member-card .bio {
-    font-size: 0.95em;
+    font-size: 1em; /* Adjusted font size */
     color: #555;
     line-height: 1.6;
 }
 
 /* Contact Section Styling */
 .contact-section {
-    padding: 80px 20px;
+    padding: 100px 20px; /* Adjusted padding */
     text-align: center;
     background-color: #f4f4f4;
     border-bottom: 1px solid #eee;
 }
 
 .contact-section h2 {
-    font-size: 2.5em;
+    font-size: 3em; /* Adjusted font size */
     color: #007bff;
-    margin-bottom: 40px;
+    margin-bottom: 50px; /* Adjusted margin */
 }
 
 .contact-content {
     max-width: 700px;
     margin: 0 auto;
     background-color: #fff;
-    padding: 40px;
+    padding: 50px; /* Adjusted padding */
     border-radius: 10px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    text-align: left;
 }
 
 .contact-content p {
-    font-size: 1.1em;
+    font-size: 1.2em; /* Adjusted font size */
     color: #555;
-    margin-bottom: 30px;
+    margin-bottom: 35px; /* Adjusted margin */
 }
 
 .contact-form .form-group {
-    margin-bottom: 20px;
+    margin-bottom: 25px; /* Adjusted margin */
     text-align: left;
 }
 
 .contact-form label {
     display: block;
-    font-size: 1em;
+    font-size: 1.1em; /* Adjusted font size */
     color: #333;
-    margin-bottom: 8px;
+    margin-bottom: 10px; /* Adjusted margin */
     font-weight: bold;
 }
 
@@ -296,7 +298,7 @@ body {
 .contact-form input[type="email"],
 .contact-form textarea {
     width: 100%;
-    padding: 12px;
+    padding: 15px; /* Adjusted padding */
     border: 1px solid #ddd;
     border-radius: 5px;
     font-size: 1em;
@@ -318,10 +320,10 @@ body {
 .submit-button {
     background-color: #007bff;
     color: #fff;
-    padding: 15px 30px;
+    padding: 18px 35px; /* Adjusted padding */
     border: none;
     border-radius: 50px;
-    font-size: 1.2em;
+    font-size: 1.3em; /* Adjusted font size */
     font-weight: bold;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.3s ease;
@@ -337,7 +339,7 @@ body {
 .site-footer {
     background-color: #222;
     color: #fff;
-    padding: 40px 20px;
+    padding: 50px 20px; /* Adjusted padding */
     text-align: center;
 }
 
@@ -347,16 +349,16 @@ body {
 }
 
 .site-footer p {
-    font-size: 0.9em;
-    margin-bottom: 15px;
+    font-size: 1em; /* Adjusted font size */
+    margin-bottom: 20px; /* Adjusted margin */
     opacity: 0.8;
 }
 
 .footer-links a {
     color: #fff;
     text-decoration: none;
-    margin: 0 15px;
-    font-size: 1em;
+    margin: 0 20px; /* Adjusted margin */
+    font-size: 1.1em; /* Adjusted font size */
     transition: color 0.3s ease;
 }
 
@@ -366,7 +368,7 @@ body {
 
 /* Chatbot Section Styling */
 .chatbot-section {
-    padding: 80px 20px;
+    padding: 100px 20px; /* Adjusted padding */
     text-align: center;
     background-color: #f9f9f9;
     border-bottom: 1px solid #eee;
@@ -378,38 +380,38 @@ body {
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-    padding: 30px;
+    padding: 40px; /* Adjusted padding */
 }
 
 .chatbot-section h2 {
-    font-size: 2.5em;
+    font-size: 3em; /* Adjusted font size */
     color: #007bff;
-    margin-bottom: 20px;
+    margin-bottom: 25px; /* Adjusted margin */
 }
 
 .chatbot-instructions {
-    font-size: 1.1em;
+    font-size: 1.2em; /* Adjusted font size */
     color: #555;
-    margin-bottom: 30px;
+    margin-bottom: 35px; /* Adjusted margin */
 }
 
 .chat-display {
     border: 1px solid #ddd;
     border-radius: 8px;
-    padding: 15px;
-    min-height: 200px;
-    max-height: 350px;
+    padding: 20px; /* Adjusted padding */
+    min-height: 250px; /* Adjusted min-height */
+    max-height: 400px; /* Adjusted max-height */
     overflow-y: auto;
-    margin-bottom: 20px;
+    margin-bottom: 25px; /* Adjusted margin */
     background-color: #fefefe;
     text-align: left;
 }
 
 .chat-bubble {
-    padding: 10px 15px;
-    border-radius: 15px;
-    margin-bottom: 10px;
-    max-width: 80%;
+    padding: 12px 18px; /* Adjusted padding */
+    border-radius: 18px; /* Adjusted border-radius */
+    margin-bottom: 12px; /* Adjusted margin */
+    max-width: 85%; /* Adjusted max-width */
     display: inline-block;
     word-wrap: break-word;
 }
@@ -429,26 +431,26 @@ body {
 
 .chat-input-area {
     display: flex;
-    gap: 10px;
-    margin-bottom: 20px;
+    gap: 12px; /* Adjusted gap */
+    margin-bottom: 25px; /* Adjusted margin */
 }
 
 .chat-input-area input {
     flex-grow: 1;
-    padding: 12px;
+    padding: 15px; /* Adjusted padding */
     border: 1px solid #ddd;
-    border-radius: 25px;
-    font-size: 1em;
+    border-radius: 28px; /* Adjusted border-radius */
+    font-size: 1.1em; /* Adjusted font size */
 }
 
 .chat-input-area button {
     background-color: #007bff;
     color: #fff;
     border: none;
-    border-radius: 25px;
-    padding: 12px 20px;
+    border-radius: 28px; /* Adjusted border-radius */
+    padding: 15px 25px; /* Adjusted padding */
     cursor: pointer;
-    font-size: 1em;
+    font-size: 1.1em; /* Adjusted font size */
     transition: background-color 0.3s ease;
 }
 
@@ -460,17 +462,17 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 10px;
+    gap: 12px; /* Adjusted gap */
 }
 
 .sample-q-button {
     background-color: #6a0dad;
     color: #fff;
     border: none;
-    border-radius: 20px;
-    padding: 10px 15px;
+    border-radius: 22px; /* Adjusted border-radius */
+    padding: 12px 18px; /* Adjusted padding */
     cursor: pointer;
-    font-size: 0.9em;
+    font-size: 1em; /* Adjusted font size */
     transition: background-color 0.3s ease;
 }
 
@@ -480,16 +482,16 @@ body {
 
 /* FAQ Section Styling */
 .faq-section {
-    padding: 80px 20px;
+    padding: 100px 20px; /* Adjusted padding */
     text-align: center;
     background-color: #fff;
     border-bottom: 1px solid #eee;
 }
 
 .faq-section h2 {
-    font-size: 2.5em;
+    font-size: 3em; /* Adjusted font size */
     color: #007bff;
-    margin-bottom: 40px;
+    margin-bottom: 50px; /* Adjusted margin */
 }
 
 .faq-container {
@@ -500,9 +502,9 @@ body {
 
 .faq-item {
     background-color: #f9f9f9;
-    border-radius: 8px;
-    margin-bottom: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    border-radius: 10px; /* Adjusted border-radius */
+    margin-bottom: 18px; /* Adjusted margin */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.08); /* Adjusted shadow */
     overflow: hidden; /* Ensures content doesn't overflow during transition */
 }
 
@@ -510,10 +512,10 @@ body {
     width: 100%;
     background-color: #e6e6e6;
     color: #333;
-    padding: 18px 25px;
+    padding: 20px 30px; /* Adjusted padding */
     border: none;
     text-align: left;
-    font-size: 1.1em;
+    font-size: 1.2em; /* Adjusted font size */
     font-weight: bold;
     cursor: pointer;
     transition: background-color 0.3s ease;
@@ -528,7 +530,7 @@ body {
 
 .faq-question::after {
     content: '+';
-    font-size: 1.5em;
+    font-size: 1.6em; /* Adjusted font size */
     transition: transform 0.3s ease;
 }
 
@@ -538,58 +540,58 @@ body {
 }
 
 .faq-answer {
-    padding: 0 25px;
+    padding: 0 30px; /* Adjusted padding */
     background-color: #fefefe;
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.3s ease-out, padding 0.3s ease-out;
+    transition: max-height 0.4s ease-out, padding 0.4s ease-out; /* Adjusted transition */
 }
 
 .faq-answer p {
-    padding: 15px 0;
+    padding: 18px 0; /* Adjusted padding */
     color: #555;
     line-height: 1.7;
 }
 
 .faq-answer.active {
-    max-height: 200px; /* Adjust as needed for content */
-    padding-bottom: 25px;
+    max-height: 300px; /* Adjusted max-height */
+    padding-bottom: 30px; /* Adjusted padding */
 }
 
 /* Audience Toggle Section Styling */
 .audience-toggle-section {
-    padding: 80px 20px;
+    padding: 100px 20px; /* Adjusted padding */
     text-align: center;
     background-color: #f4f4f4;
     border-bottom: 1px solid #eee;
 }
 
 .audience-toggle-section h2 {
-    font-size: 2.5em;
+    font-size: 3em; /* Adjusted font size */
     color: #007bff;
-    margin-bottom: 40px;
+    margin-bottom: 50px; /* Adjusted margin */
 }
 
 .toggle-switch-container {
     display: flex;
     justify-content: center;
-    margin-bottom: 30px;
+    margin-bottom: 35px; /* Adjusted margin */
     background-color: #e6e6e6;
-    border-radius: 30px;
-    padding: 5px;
-    max-width: 350px;
+    border-radius: 35px; /* Adjusted border-radius */
+    padding: 6px; /* Adjusted padding */
+    max-width: 400px; /* Adjusted max-width */
     margin-left: auto;
     margin-right: auto;
 }
 
 .toggle-button {
     flex: 1;
-    padding: 12px 20px;
+    padding: 15px 25px; /* Adjusted padding */
     border: none;
-    border-radius: 25px;
+    border-radius: 30px; /* Adjusted border-radius */
     background-color: transparent;
     color: #555;
-    font-size: 1.1em;
+    font-size: 1.2em; /* Adjusted font size */
     font-weight: bold;
     cursor: pointer;
     transition: background-color 0.3s ease, color 0.3s ease;
@@ -605,7 +607,7 @@ body {
     max-width: 800px;
     margin: 0 auto;
     background-color: #fff;
-    padding: 40px;
+    padding: 50px; /* Adjusted padding */
     border-radius: 10px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
     text-align: left;
@@ -614,7 +616,7 @@ body {
 .audience-content {
     display: none;
     opacity: 0;
-    transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.6s ease-in-out; /* Adjusted transition */
 }
 
 .audience-content.active {
@@ -623,16 +625,16 @@ body {
 }
 
 .audience-content h3 {
-    font-size: 2em;
+    font-size: 2.2em; /* Adjusted font size */
     color: #333;
-    margin-bottom: 20px;
+    margin-bottom: 25px; /* Adjusted margin */
 }
 
 .audience-content p {
-    font-size: 1.1em;
+    font-size: 1.2em; /* Adjusted font size */
     color: #555;
     line-height: 1.7;
-    margin-bottom: 20px;
+    margin-bottom: 25px; /* Adjusted margin */
 }
 
 .audience-content ul {
@@ -642,11 +644,11 @@ body {
 }
 
 .audience-content ul li {
-    font-size: 1em;
+    font-size: 1.1em; /* Adjusted font size */
     color: #666;
-    margin-bottom: 10px;
+    margin-bottom: 12px; /* Adjusted margin */
     position: relative;
-    padding-left: 25px;
+    padding-left: 30px; /* Adjusted padding */
 }
 
 .audience-content ul li::before {
@@ -659,17 +661,167 @@ body {
 
 /* Media Queries for Responsiveness */
 @media (max-width: 768px) {
+    .hero-section {
+        padding: 100px 15px;
+        min-height: 60vh;
+    }
+
     .hero-section h1 {
-        font-size: 2.5em;
+        font-size: 3em;
     }
 
     .hero-section .tagline {
-        font-size: 1.2em;
+        font-size: 1.4em;
     }
 
     .cta-button {
-        padding: 12px 25px;
+        padding: 15px 30px;
+        font-size: 1.1em;
+    }
+
+    .about-section,
+    .products-carousel,
+    .team-section,
+    .contact-section,
+    .chatbot-section,
+    .faq-section,
+    .audience-toggle-section {
+        padding: 80px 15px;
+    }
+
+    .about-section h2,
+    .products-carousel h2,
+    .team-section h2,
+    .contact-section h2,
+    .chatbot-section h2,
+    .faq-section h2,
+    .audience-toggle-section h2 {
+        font-size: 2.5em;
+    }
+
+    .carousel-container {
+        padding: 15px;
+        gap: 25px;
+    }
+
+    .carousel-item {
+        flex: 0 0 280px;
+        padding: 30px;
+    }
+
+    .carousel-item h3 {
+        font-size: 1.8em;
+    }
+
+    .product-image {
+        height: 180px;
+    }
+
+    .team-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .team-member-image {
+        width: 120px;
+        height: 120px;
+    }
+
+    .team-member-card h3 {
+        font-size: 1.8em;
+    }
+
+    .team-member-card .role {
+        font-size: 1.1em;
+    }
+
+    .brand-bar .slogan-item {
+        font-size: 1.3em;
+        padding: 0 25px;
+    }
+
+    .contact-content,
+    .chatbot-container,
+    .faq-container,
+    .audience-content-container {
+        padding: 30px;
+    }
+
+    .contact-form input,
+    .contact-form textarea,
+    .chat-input-area input {
+        padding: 12px;
+    }
+
+    .chat-input-area button,
+    .sample-q-button {
+        padding: 12px 18px;
         font-size: 1em;
+    }
+
+    .faq-question {
+        padding: 15px 20px;
+        font-size: 1em;
+    }
+
+    .faq-answer p {
+        padding: 12px 0;
+    }
+
+    .audience-content h3 {
+        font-size: 2em;
+    }
+
+    .audience-content p {
+        font-size: 1.1em;
+    }
+
+    .audience-content ul li {
+        font-size: 1em;
+        padding-left: 25px;
+    }
+
+    .site-footer {
+        padding: 40px 15px;
+    }
+
+    .site-footer p {
+        font-size: 0.9em;
+    }
+
+    .footer-links a {
+        margin: 0 15px;
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-section {
+        padding: 60px 10px;
+        min-height: 50vh;
+    }
+
+    .hero-section h1 {
+        font-size: 2em;
+    }
+
+    .hero-section .tagline {
+        font-size: 1.1em;
+    }
+
+    .cta-button {
+        padding: 10px 20px;
+        font-size: 1em;
+    }
+
+    .about-section,
+    .products-carousel,
+    .team-section,
+    .contact-section,
+    .chatbot-section,
+    .faq-section,
+    .audience-toggle-section {
+        padding: 60px 10px;
     }
 
     .about-section h2,
@@ -684,86 +836,95 @@ body {
 
     .carousel-container {
         padding: 10px;
-        gap: 20px;
+        gap: 15px;
     }
 
     .carousel-item {
-        flex: 0 0 280px; /* Adjust width for smaller screens */
+        flex: 0 0 250px;
+        padding: 25px;
+    }
+
+    .carousel-item h3 {
+        font-size: 1.6em;
+    }
+
+    .product-image {
+        height: 160px;
     }
 
     .team-grid {
-        grid-template-columns: 1fr; /* Stack team cards on smaller screens */
+        gap: 20px;
+    }
+
+    .team-member-image {
+        width: 100px;
+        height: 100px;
+    }
+
+    .team-member-card h3 {
+        font-size: 1.6em;
+    }
+
+    .team-member-card .role {
+        font-size: 1em;
     }
 
     .brand-bar .slogan-item {
-        font-size: 1.2em;
-        padding: 0 20px;
+        font-size: 1.1em;
+        padding: 0 15px;
     }
 
     .contact-content,
     .chatbot-container,
     .faq-container,
     .audience-content-container {
-        padding: 25px;
+        padding: 20px;
     }
 
     .contact-form input,
     .contact-form textarea,
     .chat-input-area input {
-        padding: 10px;
+        padding: 8px;
     }
 
     .chat-input-area button,
     .sample-q-button {
-        padding: 10px 15px;
-        font-size: 0.9em;
-    }
-}
-
-@media (max-width: 480px) {
-    .hero-section {
-        padding: 80px 15px;
+        padding: 8px 12px;
+        font-size: 0.8em;
     }
 
-    .hero-section h1 {
-        font-size: 2em;
-    }
-
-    .hero-section .tagline {
-        font-size: 1em;
-    }
-
-    .cta-button {
-        padding: 10px 20px;
+    .faq-question {
+        padding: 12px 15px;
         font-size: 0.9em;
     }
 
-    .about-section,
-    .products-carousel,
-    .team-section,
-    .contact-section,
-    .chatbot-section,
-    .faq-section,
-    .audience-toggle-section {
-        padding: 50px 15px;
+    .faq-answer p {
+        padding: 10px 0;
     }
 
-    .about-section p,
-    .contact-content p,
-    .chatbot-instructions,
+    .audience-content h3 {
+        font-size: 1.8em;
+    }
+
     .audience-content p {
         font-size: 1em;
     }
 
-    .carousel-item {
-        flex: 0 0 250px; /* Further adjust width for very small screens */
+    .audience-content ul li {
+        font-size: 0.9em;
+        padding-left: 20px;
     }
 
     .site-footer {
-        padding: 30px 15px;
+        padding: 25px 10px;
+    }
+
+    .site-footer p {
+        font-size: 0.8em;
     }
 
     .footer-links a {
-        margin: 0 10px;
+        margin: 0 8px;
+        font-size: 0.9em;
     }
 }
