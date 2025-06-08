@@ -59,4 +59,42 @@ document.addEventListener('DOMContentLoaded', () => {
 
     localStorage.setItem('page_visit_count', visitCount);
     visitorCounter.textContent = `You've visited this page ${visitCount} times.`;
+
+    // Contact Form Validation Logic
+    const contactForm = document.querySelector('.contact-form');
+    if (contactForm) {
+        contactForm.addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent default form submission
+
+            const nameInput = document.getElementById('name');
+            const emailInput = document.getElementById('email');
+            const messageInput = document.getElementById('message');
+
+            let isValid = true;
+
+            // Name validation
+            if (nameInput.value.trim() === '') {
+                alert('Name is required.');
+                isValid = false;
+            }
+
+            // Email validation
+            const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (!emailPattern.test(emailInput.value.trim())) {
+                alert('Please enter a valid email address.');
+                isValid = false;
+            }
+
+            // Message validation
+            if (messageInput.value.trim() === '') {
+                alert('Message is required.');
+                isValid = false;
+            }
+
+            if (isValid) {
+                alert('Form submitted successfully!');
+                contactForm.reset(); // Clear the form
+            }
+        });
+    }
 });
