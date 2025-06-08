@@ -46,4 +46,17 @@ document.addEventListener('DOMContentLoaded', () => {
         toggleButtons[0].classList.add('active');
         audienceContents[0].classList.add('active');
     }
+
+    // Visitor Counter Logic
+    const visitorCounter = document.getElementById('visitor-counter');
+    let visitCount = localStorage.getItem('page_visit_count');
+
+    if (visitCount) {
+        visitCount = parseInt(visitCount) + 1;
+    } else {
+        visitCount = 1;
+    }
+
+    localStorage.setItem('page_visit_count', visitCount);
+    visitorCounter.textContent = `You've visited this page ${visitCount} times.`;
 });
